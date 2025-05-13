@@ -1,5 +1,5 @@
 def divisible_by_3_turing_machine(binary_input):
-    # DFA states: q0, q1, q2
+   
     state = 'q0'
 
     for bit in binary_input:
