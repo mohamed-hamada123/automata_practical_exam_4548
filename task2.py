@@ -4,7 +4,7 @@ def divisible_by_3_turing_machine(binary_input):
 
     for bit in binary_input:
         if bit not in {'0', '1'}:
-            return False  # Invalid character
+            return False  
 
         if state == 'q0':
             state = 'q0' if bit == '0' else 'q1'
