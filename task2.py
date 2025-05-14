@@ -17,6 +17,6 @@ def divisible_by_3_turing_machine(binary_input):
 
 
 
-print(divisible_by_3_turing_machine("110"))   # True → 6
-print(divisible_by_3_turing_machine("101"))   # False → 5
-print(divisible_by_3_turing_machine("1001"))  # True → 9
+print(divisible_by_3_turing_machine("110"))   
+print(divisible_by_3_turing_machine("101"))   
+print(divisible_by_3_turing_machine("1001"))  
